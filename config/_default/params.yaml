@@ -35,7 +35,9 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Your Name"
+      text: "Mona Wang"
+      # Logo filename in `assets/media/` folder
+      filename: "logo.png"
 
 # Site footer
 footer:

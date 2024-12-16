@@ -1,0 +1,12 @@
+.DS_Store
+
+# Hugo
+resources/
+public/
+jsconfig.json
+node_modules/
+go.sum
+.hugo_build.lock
+
+# python script
+scriptTool
