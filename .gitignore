@@ -7,6 +7,7 @@ jsconfig.json
 node_modules/
 go.sum
 .hugo_build.lock
+hugo_stats.json
 
 # python script
 scriptTool
