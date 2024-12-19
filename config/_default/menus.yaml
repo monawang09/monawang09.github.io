@@ -7,15 +7,18 @@ main:
   - name: Bio
     url: /
     weight: 10
-  - name: Papers
-    url: /#papers
+  - name: Portfolio
+    url: /#portfolio
     weight: 11
   - name: Arts
-    url: art/index.html
+    url: /#art
     weight: 12
   # - name: Talks
   #   url: /#talks
   #   weight: 12
+  # - name: PROJECT
+  #   url: projects/
+  #   weight: 13
   # - name: News
   #   url: /#news
   #   weight: 13

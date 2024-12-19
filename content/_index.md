@@ -30,29 +30,29 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+  # - block: markdown
+  #   content:
+  #     title: '📚 My Research'
+  #     subtitle: ''
+  #     text: |-
+  #       Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+  #       I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
         
-        Please reach out to collaborate 😃
-    design:
-      columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
+  #       Please reach out to collaborate 😃
+  #   design:
+  #     columns: '1'
+  # - block: collection
+  #   id: papers
+  #   content:
+  #     title: Portfolio 
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     view: article-grid
+  #     columns: 2
   # - block: collection
   #   content:
   #     title: Recent Publications
@@ -103,16 +103,33 @@ sections:
   #     spacing:
   #       padding: [0, 0, 0, 0]
   - block: collection
-    id: projects
+    id: portfolio
     content:
-      title: Projects
+      title: Portfolio
       filters:
         folders:
-          - project
+          - portfolio
         featured_only: false
     design:
       view: article-grid
       columns: 3
+  - block: markdown
+    id: art
+    content:
+      title: Arts Gallery
+      text: |
+        <div style="position: absolute; left: 0; top: 18vh; width: 100vw; height: 96vh; overflow: auto;">
+          <iframe 
+            src="/art/index.html" 
+            style="position: relative; left: 10%; width: 80%; height: 100%; border: none; margin-top: -5%">
+          </iframe>
+        </div>
+        <div style="position: relative; width: 100vw; height: 65vh; overflow: auto; pointer-events: none;">
+        </div>
+    design:
+      view: full-width
+      fill_image: false
+      columns: 1
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
