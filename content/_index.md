@@ -53,16 +53,17 @@ sections:
   #   design:
   #     view: article-grid
   #     columns: 2
-  # - block: collection
-  #   content:
-  #     title: Recent Publications
-  #     text: ""
-  #     filters:
-  #       folders:
-  #         - publication
-  #       exclude_featured: false
-  #   design:
-  #     view: citation
+  - block: collection
+    id: portfolio
+    content:
+      title: Recent Publications
+      text: ""
+      filters:
+        folders:
+          - portfolio
+        featured_only: true 
+    design:
+      view: publication
   # - block: collection
   #   id: talks
   #   content:
@@ -103,13 +104,12 @@ sections:
   #     spacing:
   #       padding: [0, 0, 0, 0]
   - block: collection
-    id: portfolio
     content:
       title: Portfolio
       filters:
         folders:
           - portfolio
-        featured_only: false
+        exclude_featured: false 
     design:
       view: article-grid
       columns: 3
@@ -118,14 +118,14 @@ sections:
     content:
       title: Arts Gallery
       text: |
-        <div style="position: absolute; left: 0; top: 18vh; width: 100vw; height: 86vh; overflow: auto;">
+        <div style="position: absolute; left: 0; top: 23vh; width: 100vw; height: 86vh; overflow-y: auto; overflow-x: hidden;">
           <iframe 
             src="/art/index.html" 
             style="position: relative; left: 10%; width: 80%; height: 100%; border: none; margin-top: -5%">
             scrolling="no"
           </iframe>
         </div>
-        <div style="position: relative; width: 100vw; height: 65vh; overflow: auto; pointer-events: none; visibility: hidden;">
+        <div style="position: relative; width: 100vw; height: 70vh; overflow-y: auto; overflow-x: hidden; pointer-events: none; visibility: hidden;">
         </div>
     design:
       view: full-width
