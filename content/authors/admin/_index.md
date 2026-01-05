@@ -46,10 +46,10 @@ profiles:
   #- icon: academicons/orcid
   #  url: https://orcid.org/
 
-# interests:
-#   - Collaborative Systems
-#   - Interactive Media 
-#   - Human-AI Interaction
+interests:
+  - Privacy / Security
+  - Human-AI Interaction
+  - Collaborative Systems
 
 education:
   # - area: PhD Artificial Intelligence
@@ -191,3 +191,4 @@ I am a first-year Master’s student in Computer Science at Northwestern Univers
 My research interests lie at the intersection of human–computer interaction and privacy/security. I co-authored a paper on privacy-preserving browser fingerprinting detection under the supervision of Professor Zubair Shafiq, which was accepted at ACM IMC 2025.
 
 Previously, I worked as a Software Engineering Intern on the Microsoft Intune Data Infrastructure team, where I redesigned a data synchronization service to reduce query latency and improve system reliability. I later transitioned into product-focused roles, working as a Product Management Intern at Microsoft and Trip.com Group.
+
