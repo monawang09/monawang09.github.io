@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Artist and Software Developer 
+# role: Artist and Software Developer 
 
 # Organizations/Affiliations to display in Biography blox
 # organizations:
@@ -72,16 +72,19 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc of Computer Science & BA of Design
+
+  - area: Master of Computer Science
+    institution: Northwestern University 
+    date_start: 2025-09-20
+  
+  - area: BS of Computer Science & BA of Design
     institution: University of California, Davis
     date_start: 2020-09-20
     date_end: 2024-12-31
     summary: |
       GPA: 3.7/4.0
-      
-      Courses included:
-      - Machine Learning, Operating System
-      - Interactive Media III, Wearable Technology
+
+
 
 work:
   - position: Director of Cloud Infrastructure
@@ -183,8 +186,8 @@ awards:
 
 ## About Me
 
-I am a first-year Master’s student in Computer Science at Northwestern University. I completed my undergraduate studies at the University of California, Davis, where I pursued a dual degree in Computer Science and Design.
+I am a first-year Master’s student in Computer Science at Northwestern University. I completed my undergraduate studies at the University of California, Davis, where I earned a dual degree in Computer Science and Design.
 
-My research interests lie at the intersection of human–computer interaction and privacy. I co-authored a paper on privacy-preserving browser fingerprinting detection under the supervision of Professor Zubair Shafiq, which was accepted at ACM IMC 2025.
+My research interests lie at the intersection of human–computer interaction and privacy/security. I co-authored a paper on privacy-preserving browser fingerprinting detection under the supervision of Professor Zubair Shafiq, which was accepted at ACM IMC 2025.
 
 Previously, I worked as a Software Engineering Intern on the Microsoft Intune Data Infrastructure team, where I redesigned a data synchronization service to reduce query latency and improve system reliability. I later transitioned into product-focused roles, working as a Product Management Intern at Microsoft and Trip.com Group.
