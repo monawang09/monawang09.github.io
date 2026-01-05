@@ -46,10 +46,10 @@ profiles:
   #- icon: academicons/orcid
   #  url: https://orcid.org/
 
-interests:
-  - Collaborative Systems
-  - Interactive Media 
-  - Human-AI Interaction
+# interests:
+#   - Collaborative Systems
+#   - Interactive Media 
+#   - Human-AI Interaction
 
 education:
   # - area: PhD Artificial Intelligence
@@ -183,6 +183,8 @@ awards:
 
 ## About Me
 
-Hello! I am a passionate and driven Computer Science and UI/UX Design student at UC Davis, dedicated to creating interactive systems that empower user collaboration. I have conducted cybersecurity research focused on browser fingerprinting and privacy, as well as HCI research exploring social computing and educational visualization tools.
+I am a first-year Master’s student in Computer Science at Northwestern University. I completed my undergraduate studies at the University of California, Davis, where I pursued a dual degree in Computer Science and Design.
 
-In my professional journey, I gained valuable experience through two impactful internships at Microsoft. As a Software Engineer Intern, I optimized data infrastructure by redesigning a distributed data synchronization service. Later, I incubated an AI-powered newsletter system from zero to one as a Product Management Intern.
+My research interests lie at the intersection of human–computer interaction and privacy. I co-authored a paper on privacy-preserving browser fingerprinting detection under the supervision of Professor Zubair Shafiq, which was accepted at ACM IMC 2025.
+
+Previously, I worked as a Software Engineering Intern on the Microsoft Intune Data Infrastructure team, where I redesigned a data synchronization service to reduce query latency and improve system reliability. I later transitioned into product-focused roles, working as a Product Management Intern at Microsoft and Trip.com Group.
